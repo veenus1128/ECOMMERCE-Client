@@ -11,6 +11,7 @@ root.render(
   
   <div>
     <Router>
+      <p>Changes</p>
       <Navbar/>
       <Routes>
         <Route path="/register" element={<Register/>}/>
